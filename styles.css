@@ -1,0 +1,159 @@
+body {
+  background-color: rgb(255, 130, 67);
+  padding-top: 30px;
+  font-family: "Sometype Mono", monospace;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+
+/*  Foksi´s */
+.foksi-01 {
+  float: left;
+  width: 170px;
+}
+
+.foksi-02 {
+  float: right;
+  width: 170px;
+}
+
+.foksi-03 {
+  display: block;
+  margin: auto;
+  width: 175px;
+}
+/*  /Foksi´s 
+
+  Text Shadows */
+.shyni {
+  color: black;
+  text-shadow: 0 -1px 4px red, 0 -2px 10px #ff0, 0 -10px 20px rgb(255, 140, 27),
+    0 -18px 40px #f00;
+}
+/*  /Text Shadows
+
+    Alle Fuchsbilder */
+.bild {
+  width: 500px;
+}
+/*  /Alle Fuchsbilder
+
+    NAV */
+.main-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(255, 140, 27);
+  padding: 12px;
+  box-shadow: 5px 3px 15px 5px rgb(255, 140, 27);
+}
+
+.main-nav a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  color: red;
+}
+/* /NAV 
+
+    Start & Boxshadows*/
+.welcome {
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 5px 5px 15px 5px rgb(255, 140, 27);
+  box-shadow: 5px 5px 15px 5px rgb(255, 140, 27);
+}
+/* /Start & Boxshadows
+
+    IMG margin*/
+section img {
+  margin: 10px;
+}
+/*  /IMG margin
+
+    ID 1 */
+#vulpes-id {
+  display: flexbox;
+  border: 2px solid grey;
+}
+/* /ID 1
+
+    ID 2 */
+#rotfuchs-id {
+  display: flexbox;
+  border: 2px solid red;
+}
+/* /ID 
+
+    ID 3*/
+#fennek-id {
+  border: 2px solid yellow;
+}
+
+.fennek {
+  display: block;
+  margin: auto;
+  width: 500px;
+}
+/* /ID 3
+
+    ID 4 */
+#polarfuchs-id {
+  border: 2px solid white;
+  text-align: center;
+}
+/* /ID 4
+    
+    ID 5 */
+#videos-id {
+  border: 2px solid purple;
+}
+
+.im-middle {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.video {
+  width: 533px;
+  height: 331px;
+  display: block;
+  margin: auto;
+  border: 2px solid black;
+}
+
+/*  /ID 5 */
+
+/* Info-Seite */
+
+.info {
+  height: 55vh;
+}
+
+.foksi-04 {
+  display: block;
+  margin: auto;
+  width: 222px;
+}
+
+.tenor-gif-embed {
+  width: 300px;
+}
+
+#last-word-id {
+  text-align: center;
+}
